@@ -1,0 +1,4 @@
+css/*.css
+js/*.js
+!css/bootstrap.min.css
+!js/bootstrap.bundle.js
