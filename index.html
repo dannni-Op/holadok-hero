@@ -12,6 +12,11 @@
                 transform: skew(-7deg, 1deg);
                 height: 110%;
             }
+
+            .bg-mygreen 
+            {
+                background-color: #9beae0;
+            }
         </style>
     </head>
     <body>
@@ -45,16 +50,16 @@
                 </div>
             </div>
         </nav>
-        <div class="container ">
+        <div class="container px-4">
             <div class="row vh-100 ">
                 <div class="col">
                     <div class="row h-75 overflow-hidden">
-                        <div class="col-4 align-content-center lh-lg ">
-                            <h2 class="text-primary lh-base">Get the healthcare you need, when you need it.</h2>
-                            <p class=""><small>Manage all of your healthcare needs in one convenient place - from booking appointments to tracking your health history.</small></p>
-                            <button type="button" class="btn btn-primary mt-4">Book an Appointment</button>
+                        <div class="col col-lg-4 align-content-center lh-lg mt-5 pt-5 ">
+                            <h2 class="text-primary lh-base text-center text-sm-start">Get the healthcare you need, when you need it.</h2>
+                            <p class="text-center text-sm-start"><small>Manage all of your healthcare needs in one convenient place - from booking appointments to tracking your health history.</small></p>
+                            <button type="button" class="btn btn-primary mt-4 text-center d-none d-sm-inline-block">Book an Appointment</button>
                         </div>
-                        <div class="col align-content-center">
+                        <div class="col-lg align-content-center d-sm-none d-lg-block">
                             <div class="w-auto bg-white text-dark p-3 rounded-3 shadow offset-sm-1 position-relative" >
                                 <div class="mb-2 d-flex align-items-center gap-3" >
                                     <img src="./assetss/Ellipse 1.png" alt="" />
@@ -66,34 +71,33 @@
                                 </blockquote>
                             </div>
                         </div>
-                        <div class="col d-grid align-items-end justify-content-start position-relative">
+                        <div class="col-sm-6 col-md d-grid align-items-end justify-content-end position-relative">
                             <img class="" width="300" src="./assetss/doctor.png" alt="doctor" />
-                            <div class="w-100 bg-success position-absolute z-n1 skew"></div>
+                            <div class="w-100 bg-mygreen position-absolute z-n1 skew d-none d-sm-block"></div>
                         </div>
                     </div>
-                    <div class="row bg-primary pt-3 text-light">
-                        <div class="col-1 d-grid justify-content-center">
-                            <img class="d-flex" src="./assetss/icon1.png" alt="icon1" />
-                        </div>
-                        <div class="col ">
-                            <div class="">
+
+                    <div class="row bg-primary text-light row-gap-4 py-3">
+                        <div class="col-12 col-md-4 d-flex flex-row gap-4">
+                            <img class="align-self-start" src="./assetss/icon1.png" alt="icon1" />
+                            <div>
                                 <h6>Online appointment scheduling</h6>
                                 <p class=""><small>Allows users to schedule appointments with their healthcare provider through the app.</small></p>
                             </div>
                         </div>
-                        <div class="col-1 d-grid justify-content-center">
-                            <img class="" src="./assetss/icon2.png" alt="icon1" />
+                        <div class="col-12 col-md-4 d-flex flex-row gap-4">
+                            <img class="align-self-start" src="./assetss/icon2.png" alt="icon1" />
+                            <div>
+                                <h6>Medication reminders</h6>
+                                <p class=""><small>Allows users to schedule appointments with their healthcare provider through the app.</small></p>
+                            </div>
                         </div>
-                        <div class="col ">
-                            <h6>Medication reminders</h6>
-                            <p class=""><small>Allows users to schedule appointments with their healthcare provider through the app.</small></p>
-                        </div>
-                        <div class="col-1 d-grid justify-content-center">
-                            <img src="./assetss/icon3.png" alt="icon1" />
-                        </div>
-                        <div class="col ">
-                            <h6>Virtual consultations</h6>
-                            <p class=""><small>Allows users to schedule appointments with their healthcare provider through the app.</small></p>
+                        <div class="col-12 col-md-4 d-flex flex-row gap-4">
+                            <img class="align-self-start" src="./assetss/icon3.png" alt="icon1" />
+                            <div class="">
+                                <h6>Virtual consultations</h6>
+                                <p class=""><small>Allows users to schedule appointments with their healthcare provider through the app.</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
